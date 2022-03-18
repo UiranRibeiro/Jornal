@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/*cabecalho
+*************************************************************************/
+.cabecalho{
+    
+    border-bottom: 1px solid black;
+    
+}
+.menu{
+    width: 90%;
+    max-width: 95em;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px
+}
+.butoesmenu{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.butoes a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: 0.8em; 
+    transition: all 360ms ease;
+    
+       
+}
+.butoes a:hover{
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    transition: all 360ms ease;
+    
+
+
+}
+.tutorial{
+    padding: 0px 20px;
+}
+.tutorial p{
+    color: rgb(94, 92, 92);
+}
+.tutorial a{
+    color: rgb(94, 92, 92);
+
+}
+
+.titulo{
+    width:90% ;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 95em;
+    margin: auto;
+    padding-top: 8.5em;
+
+}
+.titulo h1{
+    font-size: 10em;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    
+
+}
+/*secao01
+*************************************************************************/
+
+
+.secao01{
+    width: 90%;
+    max-width: 95em;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+        
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 5px;
+    font-size: 1.2em;
+    font-family: 'Manrope', sans-serif;
+    
+}
+.coluna01{
+
+    border-left: 1px solid black;
+    flex: 2 1 50%;    
+    display: flex;
+    flex-wrap: wrap;   
+           
+}
+  
+    .artigo01{
+        flex: 2 1 90%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.5em 2.0em;   
+        
+    }
+  
+            .artigo01 img{
+                
+                display: block;
+                max-width: 100%;   
+                
+            }
+            .artigo01 > p{
+                line-height: 1.4em;
+                padding-top: 15px;
+                font-family: 'Manrope', sans-serif;
+            }
+            .artigo01 a{
+                text-decoration: none;
+                color: black;
+            }
+
+
+    .artigo04{
+        flex: 1 1 40%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.4em 2.0em;
+       
+    }
+            .artigo04 img{
+                display: block;
+                max-width: 100%;
+                
+            }
+            .artigo04 > p{
+                line-height: 1.4em;
+                padding-top: 15px;
+                font-family: 'Manrope', sans-serif;
+            }
+            .artigo04 a{
+                text-decoration: none;
+                color: black;
+            }
+    .artigo05{
+        flex:  1 1 40%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.4em 2.0em;
+           
+    }
+            .artigo05 img{
+                display: block;
+                max-width: 100%;
+                
+            }
+            .artigo05 > p{
+                line-height: 1.4em;
+                padding-top: 15px;
+                font-family: 'Manrope', sans-serif;
+            }
+            .artigo05 a{
+                text-decoration: none;
+                color: black;
+            }
+
+
+.coluna02{
+    
+    flex: 1 1 30%;    
+    
+    display: flex;
+    flex-wrap: wrap;    
+        
+    
+}
+    .artigo02{
+        flex: 4 1 90%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.5em 2.0em;
+               
+        
+    }
+
+            .artigo02 img{
+                display: block;
+                max-width: 100%;
+                
+            }
+            .artigo02 > p{
+                line-height: 1.4em;
+                padding-top: 15px;
+                font-family: 'Manrope', sans-serif;
+            }
+            .artigo02 a{
+                text-decoration: none;
+                color: black;
+            }
+
+    .artigo03{
+        flex: 4 1 90%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.5em 2.0em;
+            
+    }
+            .artigo03 h2{
+                font-size: 2.4em;
+                line-height: 1.2;
+                font-weight: 300;
+                font-family: 'Cormorant', serif;
+                text-align: center;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                margin: auto;
+
+            }
+            .artigo03  p{
+                padding-top: 20px;
+                font-size: 1.7em;
+                text-align: center;
+                font-family: 'Cormorant', serif;
+
+            }
+            
+
+    .artigo06{
+        flex: 1 1 30%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.2em 2.0em;
+        
+    }
+
+            .artigo06 img{
+                
+                display: block;
+                max-width: 100%;
+                
+            }
+            .artigo06 > p{
+                line-height: 1.4em;
+                padding-top: 15px;
+                font-family: 'Manrope', sans-serif;
+            }
+            .artigo06 a{
+                text-decoration: none;
+                color: black;
+            }
+    .artigo07{
+        flex: 1 1 30%;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 3.2em 2.0em;
+           
+    }
+            .artigo07 img{
+                display: block;
+                max-width: 100%;
+                
+            }
+            .artigo07 > p{
+                line-height: 1.4em;
+                padding-top: 15px;
+                font-family: 'Manrope', sans-serif;
+            }
+            .artigo07 a{
+                text-decoration: none;
+                color: black;
+            }
+
+
+/*secao02
+**********************************************************************/
+
+.secao02{
+    width: 90%;
+    max-width: 95em;
+    margin: auto auto 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid black;  
+         
+}
+
+.artigo08{
+    padding: 3.2em 2.0em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    flex: 1 1 22%;
+}
+            .artigo08 img{
+                display: block;
+                max-width: 100%;
+            }
+
+.artigo09{
+    padding: 3.2em 2.0em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    flex: 3 1 50%;
+    
+    
+}
+
+        .borda{
+            min-height: 100%;
+            min-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;                       
+            background-image: url('imagem10.jpeg');
+            background-size: cover;
+            background-position: center center;
+          
+            
+              
+
+        }
+.artigo10{
+    padding: 3.2em 2.0em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    flex: 1 1 17.6%;
+
+}
+
+            .contato{
+                display: flex;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .contato p{
+                font-size: 1.2em;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;                  
+                  
+            }
+            .icon{
+                width: 2em;
+                height: 2em;
+                margin-top: 20px;
+                color: black;
+                transition: all 360ms ease;
+            }
+            .icon:hover{
+                width: 3em;
+                height: 3em;
+                transition: all 360ms ease;
+                color: rgb(224, 224, 101);
+            }
+.artigo11{
+    padding: 3.2em 2.0em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    flex: 1 1 20%;
+}
+        .artigo11 img{
+            display: block;
+            max-width: 100%;
+        }
+.artigo12{
+    padding: 3.2em 2.0em;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    flex: 1 1 20%;
+        
+}
+        .artigo12 img{
+            display: block;
+            max-width: 100%;
+        }
